@@ -14,7 +14,7 @@ public class PacienteResponse {
 
     private Long id;
     private String nome;
-    private String sobreNome;
+    private String sobrenome;
     private String email;
     private String cpf;
 }

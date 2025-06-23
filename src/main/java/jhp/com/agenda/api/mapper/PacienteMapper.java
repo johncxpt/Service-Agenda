@@ -10,7 +10,7 @@ public class PacienteMapper {
 
         Paciente paciente = new Paciente();
         paciente.setNome(request.getNome());
-        paciente.setSobreNome(request.getSobreNome());
+        paciente.setSobrenome(request.getSobrenome());
         paciente.setEmail(request.getEmail());
         paciente.setCpf(request.getCpf());
         return paciente;
@@ -21,7 +21,7 @@ public class PacienteMapper {
         PacienteResponse response = new PacienteResponse();
         response.setId(paciente.getId());
         response.setNome(paciente.getNome());
-        response.setSobreNome(paciente.getSobreNome());
+        response.setSobrenome(paciente.getSobrenome());
         response.setEmail(paciente.getEmail());
         response.setCpf(paciente.getCpf());
         return response;
